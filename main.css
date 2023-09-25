@@ -1,3 +1,7 @@
-.container{
-    background-image: url(".PROJETOCEAAT/assets/header_block.png");
+.head{
+    background-image: (".PROJETOCEAAT/assets/header_block.png");
 }   
+
+#titulo{
+    color: white;
+}
