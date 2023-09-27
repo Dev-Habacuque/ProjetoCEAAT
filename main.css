@@ -10,5 +10,16 @@
     -webkit-text-stroke: 1px black; 
 }
 li:hover{
-    color: purple;
+    color: rgb(177, 5, 177);
+}
+.section, p{
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+ol{
+    font-size: 25px;
+    font-style: italic initial;
+}
+ol li {
+    margin: 10px;
 }
