@@ -1,12 +1,11 @@
 .head{
-    background-image: url("assets/header_block.png");
+    background-color: #0D97CE;
     margin-top: -50px;
-}   
-
+} 
 #titulo{
     text-align: center;
-    font-size: 170px;
-    color: rgb(255, 255, 255);
+    font-size: 110px;
+    color: rgb(8, 104, 107);
     -webkit-text-stroke: 1px black; 
 }
 li:hover{
