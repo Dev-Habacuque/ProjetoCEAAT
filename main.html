@@ -10,32 +10,40 @@
 </head>
 
 <body>
-    
+
     <div class="container">
         <div class="head">
-            <button id="menu-button">&#9776;</button>
+            <img src="assets/list_3161836.png" alt="" id="menu-button">
             <div id="menu">
-                <ol>
-                    <li>Opção 1</li>
-                    <li>Opção 2</li>
-                    <li>Opção 3</li>
-                </ol>
+                <ul>
+                    <li onclick="goBack()"><img src="assets/icons8-home-50.png" alt="">Home</li>
+                    <li onclick="aboutCreators()"><img src="assets/icons8-about-30.png" alt="">About</li>
+                    <li><img src="assets/logout.png" alt="">Sign out</li>
+                </ul>
             </div>
+            <img id="logo-img" src="assets/ceaat logo.jpg" alt="">
             <h1 id="titulo">E-sosti CEAAT</h1><img sr9c="assets/header_block.png">
-            <header>
-                
-            </header>
 
         </div>
         <div class="section">
             <section id="activities">
                 <p>Solicitação:</p>
-                <ol>
-                    <li onclick="inPrSof()">Instalação de Programa/Software.</li>
-                    <li onclick="reDeFis()">Reparação de defeito físico.</li>
-                    <li onclick="inNoAp()">Instalação de novo aparelho.</li>
-                    <li onclick="coImSc()">Configuração de Impressora/Scan</li>
-                </ol>
+
+                <div class="mcontainer">
+                    <div class="opcoes">
+                        <p onclick="inPrSof()">Instalação de Programa/Software.</p>
+                    </div>
+                    <div class="opcoes">
+                        <p onclick="reDeFis()">Reparação de defeito físico.</p>
+                    </div>
+                    <div class="opcoes">
+                        <p onclick="inNoAp()">Instalação de novo aparelho.</p>
+                    </div>
+                    <div class="opcoes">
+                        <p onclick="coImSc()">Configuração de Impressora/Scan</p>
+                    </div>
+                </div>
+
             </section>
 
         </div>
