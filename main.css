@@ -98,14 +98,22 @@ ol li {
     background-color: #808080;
     cursor: pointer;
 }
-.mcontainer{
- width: 600px;
- background-color: #4a4a4a;
- height: auto;
- padding: 10px;
- margin: auto;
- border-radius: 10px;
-box-shadow: 3px 5px 4px rgb(177, 172, 172);
+.mcontainer {
+    width: 600px;
+    background-color: #4a4a4a;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 5px 4px rgb(177, 172, 172);
+}
+.mcontainer p{
+    color: wheat;
+}
+
+.mcontainer input{
+    
 }
 #solicitacao{
     color: #4a4a4a;

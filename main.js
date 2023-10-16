@@ -11,18 +11,18 @@ menuButton.addEventListener("click", function () {
 });
 
 function inPrSof() {
-  document.getElementById("activities").innerHTML = '<p>Qual o nome do programa?</p> <form id="default"> <input type="text"><br> <input type="submit" onclick="goBack()" value="Voltar"><input type="submit"></form>';
+  document.getElementById("activities").innerHTML = '<br><div class="mcontainer"><p>Qual o nome do programa?</p> <form id="default"> <input type="text"><br> <input type="submit" onclick="goBack()" value="Voltar"><input type="submit"></form></div>';
 }
 
 function reDeFis() {
-  document.getElementById("activities").innerHTML = '<p>Faça um breve resumo do problema apresentado</p> <form id="default"><textarea></textarea><br><input type="submit" onclick="goBack()" value="Voltar"><input type="submit"></form>';
+  document.getElementById("activities").innerHTML = '<br><div class="mcontainer"><p>Faça um breve resumo do problema apresentado</p> <form id="default"><textarea></textarea><br><input type="submit" onclick="goBack()" value="Voltar"><input type="submit"></form></div>';
 }
 function inNoAp() {
-  document.getElementById("activities").innerHTML = '<p>Selecione qual dispositivo será instalado:</p> <form id="default"> <input type="text"><br><input type="submit" onclick="goBack()" value="Voltar"><input type="submit"></form>';// Adicionar opções
+  document.getElementById("activities").innerHTML = '<br><div class="mcontainer"><p>Selecione qual dispositivo será instalado:</p> <form id="default"> <input type="text"><br><input type="submit" onclick="goBack()" value="Voltar"><input type="submit"></form></div>';// Adicionar opções
 
 }
 function coImSc() {
-  document.getElementById("activities").innerHTML = '<p>Faça um breve resumo do problema apresentado</p> <form id="default"> <input type="text"> <br><input type="submit" onclick="goBack()" value="Voltar"><input type="submit"></form>';
+  document.getElementById("activities").innerHTML = '<br><div class="mcontainer"><p>Faça um breve resumo do problema apresentado</p> <form id="default"> <input type="text"> <br><input type="submit" onclick="goBack()" value="Voltar"><input type="submit"></form></div>';
 }
 function goBack() {
   document.getElementById("activities").reload()
