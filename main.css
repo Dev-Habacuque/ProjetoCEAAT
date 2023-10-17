@@ -112,9 +112,10 @@ ol li {
     color: wheat;
 }
 
-.mcontainer input{
-    
+.mcontainer input, button{
+    border-style: outset;
 }
+
 #solicitacao{
     color: #4a4a4a;
     text-align: center;
