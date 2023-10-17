@@ -112,8 +112,20 @@ ol li {
     color: wheat;
 }
 
-.mcontainer input, button{
+.mcontainer input{
     border-style: outset;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.mcontainer textarea{
+    border-radius: 10px;
+    font-size: 15px;
+}
+.mcontainer button{
+    width: 80px;
+    height: 25px;
+    margin: 15px;
+    border-radius: 5px;
 }
 
 #solicitacao{
