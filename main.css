@@ -8,31 +8,24 @@
     margin-left: 18px;
     opacity: 0.90;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    
-    
+    font-size: 15px;       
 }
-
-#menu li{
+#menu li {
     font-size: 150%;
 }
-
 #menu img {
     margin-left: -5px;
 }
-
 #menu li:hover {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
-
 .head {
     background-color: #585858;
     margin-top: -10px;
     margin-left: -20px;
     margin-right: -20px;
 }
-
 #titulo {
     text-align: center;
     font-size: 110px;
@@ -41,60 +34,49 @@
     -webkit-text-stroke: 3px black;
     margin-bottom: 15px;
     margin-top: -10px;
-
 }
-
 #titulo img {
     width: 100px;
     height: 80px;
-
 }
-
 p:hover {
     color: #A9424A;
     cursor: pointer;
 }
-
 .section,
 p {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 25px;
 }
-
 ol {
     font-size: 25px;
     font-style: italic initial;
 }
-
 ol li {
     margin: 10px;
 }
-
 #default {
     margin: 50px;
 }
-
 .head img {
     width: 40px;
     margin-left: 20px;
     margin-top: 10px;
 }
-
 #logo-img {
     margin-left: 40%;
     width: 100px;
 }
-.opcoes{
+.opcoes {
     margin: 20px;
     background-color: #656565;
     text-align: center;
     border-radius: 10px;
     height: 80px;
-    padding: 0.9px;
-    
+    padding: 0.9px;   
 }
-.opcoes:hover{
+.opcoes:hover {
     background-color: #808080;
     cursor: pointer;
 }
@@ -108,43 +90,50 @@ ol li {
     border-radius: 10px;
     box-shadow: 3px 5px 4px rgb(177, 172, 172);
 }
-.mcontainer p{
+.mcontainer p {
     color: wheat;
 }
-
-.mcontainer input{
+.mcontainer input {
     border-style: outset;
     background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
     border-radius: 10px;
+    width: 250px;
+    height: 30px;
 }
-.mcontainer textarea{
+.mcontainer textarea {
     border-radius: 10px;
     font-size: 15px;
 }
-.mcontainer button{
+.mcontainer button {
     width: 80px;
     height: 25px;
     margin: 15px;
     border-radius: 5px;
+    background-color: gray;
 }
-
-#solicitacao{
+#solicitacao {
     color: #4a4a4a;
     text-align: center;
-
+    text-shadow: 1px 1px 1px rgb(82, 79, 79);
 }
-#aboutText{
-    text-align: justify;
-    
+#aboutText {
+    text-align: justify; 
 }
-.acontainer{
+.acontainer {
     background-color: #A6A1A1;
     margin: 5%;
     border-radius: 10px;
     padding: 20px;
 }
-body{
+body {
     color: #313131;
+}
+.footer{
+    position: fixed;
+    margin-bottom: 0;
+    background-color: black;
 }
 
 
