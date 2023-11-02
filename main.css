@@ -5,8 +5,8 @@
     height: 220px;
     width: 190px;
     border-radius: 13px;
-    margin-left: 18px;
-    opacity: 0.90;
+    margin-top: 70px;
+    margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;       
 }
@@ -24,8 +24,8 @@
     width: 100%;
 }
 #menu-button{
-    position: relative;
-    margin-top: -30px;
+    position: absolute;
+    margin-top: 30px;
 }
 .head {
     background-color: #585858;
@@ -52,10 +52,6 @@
     width: 100px;
     height: 80px;
 }
-p:hover {
-    color: #A9424A;
-    cursor: pointer;
-}
 .section, p {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -71,21 +67,44 @@ ol li {
 #default {
     margin: 50px;
 }
+
 #logo-img {
     margin-left: 40%;
     width: 100px;
 }
+
 .opcoes {
-    margin: 20px;
+    margin: 5px;
     background-color: #656565;
-    text-align: center;
+    text-align: justify;
     border-radius: 10px;
-    height: 80px;
-    padding: 0.9px;   
+    padding: 30px;   
 }
-.opcoes:hover {
-    background-color: #808080;
-    cursor: pointer;
+
+a{
+    text-decoration: none;
+}
+
+.acontainer a{
+    background: darkgray;
+    border: 5px solid rgb(134, 133, 133);
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+li:hover a{
+    color: white;
+}
+
+.mcontainer input{
+    border-style: outset;
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
 }
 .mcontainer {
     width: 600px;
@@ -97,33 +116,15 @@ ol li {
     border-radius: 10px;
     box-shadow: 3px 5px 4px rgb(177, 172, 172);
 }
-.mcontainer p {
-    color: wheat;
-}
-.mcontainer input {
-    border-style: outset;
-    background-color: #ffffff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    border-radius: 10px;
-    width: 250px;
-    height: 30px;
-}
+
 .mcontainer textarea {
     border-radius: 10px;
     font-size: 15px;
 }
-.mcontainer button {
-    width: 80px;
-    height: 25px;
-    margin: 15px;
-    border-radius: 5px;
-    background-color: gray;
-}
 #solicitacao {
     color: #4a4a4a;
     text-align: center;
-    text-shadow: 1px 1px 1px rgb(82, 79, 79);
+    text-shadow: 1px 1px 1px rgb(172, 169, 169);
 }
 #aboutText {
     text-align: justify; 
@@ -147,4 +148,5 @@ body {
     opacity: 0.7;
     text-align: center;
     background-color: grey;
+    padding: 3px;
 }
