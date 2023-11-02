@@ -28,6 +28,11 @@
     margin-top: 30px;
     width: 40px;
 }
+#menu img{
+    width: 35px;
+    padding: 2px;
+    margin-top: 9px;
+}
 .head {
     background-color: #585858;
     margin-left: -8px;
@@ -67,11 +72,6 @@ ol li{
 }
 #default {
     margin: 50px;
-}
-
-#logo-img {
-    margin-left: 40%;
-    width: 100px;
 }
 
 #solicitacao {
