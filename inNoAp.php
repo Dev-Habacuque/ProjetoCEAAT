@@ -1,3 +1,8 @@
+<?php
+
+include("protect.php");
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,15 +19,15 @@
                 <ul>
                     <li>
                         <img src="assets/icons8-home-50.png">
-                        <a href="sistema.html">HOME</a>
+                        <a href="sistema.php">HOME</a>
                     </li>
                     <li>
                         <img src="assets/icons8-about-30.png" alt="">
-                        <a href="aboutCreators.html">SOBRE</a>
+                        <a href="aboutCreators.php">SOBRE</a>
                     </li>
                     <li>
                         <img src="assets/logout.png" alt="">
-                        <a href="login.html">LOGOUT</a>
+                        <a href="logout.php">LOGOUT</a>
                     </li>
                 </ul>
             </div>
@@ -35,7 +40,7 @@
             <form id="default"> 
                 <input type="text">
                 <br><br>
-                <a href="sistema.html">Voltar</a>
+                <a href="sistema.php">Voltar</a>
                 <button type="submit">Enviar</button>
             </form>
         </div>

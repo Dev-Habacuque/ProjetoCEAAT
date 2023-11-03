@@ -1,11 +1,18 @@
+<?php
+
+include("protect.php");
+
+?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
         <div class="head">
@@ -14,28 +21,28 @@
                 <ul>
                     <li>
                         <img src="assets/icons8-home-50.png">
-                        <a href="sistema.html">HOME</a>
+                        <a href="sistema.php">HOME</a>
                     </li>
                     <li>
                         <img src="assets/icons8-about-30.png" alt="">
-                        <a href="aboutCreators.html">SOBRE</a>
+                        <a href="aboutCreators.php">SOBRE</a>
                     </li>
                     <li>
                         <img src="assets/logout.png" alt="">
-                        <a href="login.html">LOGOUT</a>
+                        <a href="logout.php">LOGOUT</a>
                     </li>
                 </ul>
-        </div>
-        <img id="logo_img" src="assets/ceaat logo.jpg" alt="">
-        <h1 id="titulo">E-SOSTI CEAAT</h1>
+            </div>
+            <img id="logo_img" src="assets/ceaat logo.jpg" alt="">
+            <h1 id="titulo">E-SOSTI CEAAT</h1>
         </div>
         <br>
         <div class="mcontainer">
-            <p>Qual o nome do programa?</p>
-            <form id="default"> 
-                <input type="text">
-                <br> <br>
-                <a href="sistema.html">Voltar</a>
+            <p>Faça um breve resumo do problema apresentado</p>
+            <form id="default">
+                <textarea rows="10" cols="50"></textarea>
+                <br><br>
+                <a href="sistema.php">Voltar</a>
                 <button type="submit">Enviar</button>
             </form>
         </div>
@@ -43,6 +50,7 @@
     <div class="footer">
         Privacy / Do Not Sell My Info © Fale Conosco: (71) 99999-9999
     </div>
-    <script src="main.js"></script>
+        <script src="main.js"></script>
 </body>
+
 </html>

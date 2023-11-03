@@ -1,3 +1,8 @@
+<?php
+
+include("protect.php");
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -19,15 +24,15 @@
                 <ul>
                     <li>
                         <img src="assets/icons8-home-50.png">
-                        <a href="sistema.html">HOME</a>
+                        <a href="sistema.php">HOME</a>
                     </li>
                     <li>
                         <img src="assets/icons8-about-30.png" alt="">
-                        <a href="aboutCreators.html">SOBRE</a>
+                        <a href="aboutCreators.php">SOBRE</a>
                     </li>
                     <li>
                         <img src="assets/logout.png" alt="">
-                        <a href="login.html">LOGOUT</a>
+                        <a href="logout.php">LOGOUT</a>
                     </li>
                 </ul>
             </div>
@@ -37,17 +42,18 @@
 
         <div class="section">
             <section id="activities">
+                <h1 id="solicitacao">Seja bem vindo, <?php echo $_SESSION['nome'];?>.</h1>
                 <h2 id="solicitacao">Selecione seu tipo de solicitação:</h2>
 
                 <div class="acontainer">
                     <div class="opcoes">
-                        <a href="inPrSof.html">Instalação de Programa/Software.</a>
+                        <a href="inPrSof.php">Instalação de Programa/Software.</a>
                         <br><br>  
-                        <a href="reDeFis.html">Reparação de defeito físico.</a>
+                        <a href="reDeFis.php">Reparação de defeito físico.</a>
                         <br><br>
-                        <a href="inNoAp.html">Instalação de novo aparelho.</a>
+                        <a href="inNoAp.php">Instalação de novo aparelho.</a>
                         <br><br>
-                        <a href="coImSc.html">Configuração de Impressora/Scan.</a>
+                        <a href="coImSc.php">Configuração de Impressora/Scan.</a>
                     </div>
                 </div>
             </section>
