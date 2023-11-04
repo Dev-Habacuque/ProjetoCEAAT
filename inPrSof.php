@@ -30,16 +30,18 @@ include("protect.php");
                         <a href="logout.php">LOGOUT</a>
                     </li>
                 </ul>
-        </div>
-        <img id="logo_img" src="assets/ceaat logo.jpg" alt="">
-        <h1 id="titulo">E-SOSTI CEAAT</h1>
+            </div>
+            <img id="logo_img" src="assets/ceaat logo.jpg" alt="">
+            <h1 id="titulo">E-SOSTI CEAAT</h1>
         </div>
         <br>
         <div class="mcontainer">
             <p>Qual o nome do programa?</p>
-            <form id="default"> 
-                <input type="text">
-                <br> <br>
+            <form id="default" method="POST" action="cadasSolic.php"> 
+                <input type="text" name="nome" value="<?php echo $_SESSION['nome']?>" hidden>
+                <input type="text" name="tipo" value="Instalação de Programa" hidden>
+                <input type="text" name="descricao">
+                <br><br>
                 <a href="sistema.php">Voltar</a>
                 <button type="submit">Enviar</button>
             </form>

@@ -37,8 +37,10 @@ include("protect.php");
         <br>
         <div class="mcontainer">
             <p>Faça um breve resumo do problema apresentado</p>
-            <form id="default"> 
-                <input type="text">
+            <form id="default" method="POST" action="cadasSolic.php">
+                <input type="text" name="nome" value="<?php echo $_SESSION['nome']?>" hidden>
+                <input type="text" name="tipo" value="Configuração de impressora" hidden> 
+                <input type="text" name="descricao">
                 <br><br>
                 <a href="sistema.php">Voltar</a>
                 <button type="submit">Enviar</button>

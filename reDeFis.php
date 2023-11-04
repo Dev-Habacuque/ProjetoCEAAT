@@ -5,14 +5,12 @@ include("protect.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
-
 <body>
     <div class="container">
         <div class="head">
@@ -39,8 +37,10 @@ include("protect.php");
         <br>
         <div class="mcontainer">
             <p>Faça um breve resumo do problema apresentado</p>
-            <form id="default">
-                <textarea rows="10" cols="50"></textarea>
+            <form id="default" method="POST" action="cadasSolic.php">
+                <input type="text" name="nome" value="<?php echo $_SESSION['nome']?>" hidden>
+                <input type="text" name="tipo" value="Reparação de defeito físico" hidden>
+                <textarea rows="10" cols="50" name="descricao"></textarea>
                 <br><br>
                 <a href="sistema.php">Voltar</a>
                 <button type="submit">Enviar</button>
