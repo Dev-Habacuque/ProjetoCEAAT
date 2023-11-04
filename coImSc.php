@@ -36,7 +36,7 @@ include("protect.php");
         </div>
         <br>
         <div class="mcontainer">
-            <p>Faça um breve resumo do problema apresentado</p>
+            <p>Qual a marca da Impressora/Scan?</p>
             <form id="default" method="POST" action="cadasSolic.php">
                 <input type="text" name="nome" value="<?php echo $_SESSION['nome']?>" hidden>
                 <input type="text" name="tipo" value="Configuração de impressora" hidden> 

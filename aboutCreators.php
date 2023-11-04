@@ -37,9 +37,8 @@ include("protect.php");
         <br>
         <div class="acontainer">
             <h3>Sobre o Desenvolvimento</h3>
-            <h4 id="aboutText">Site desenvolvido integralmente surporte técnico para colaboradores da escola e fins
-            institucionais </h4>
-            <h3>Lista de Developers:</h3>
+            <h4 id="aboutText">Site desenvolvido integralmente ao surporte técnico para colaboradores da escola e para fins educativos. </h4>
+            <h3>Lista de Dev's:</h3>
             <p>
             <ul>
                 <li>Victor Trindade Cerqueira</li>
@@ -49,6 +48,8 @@ include("protect.php");
             <h3>Integrantes do projeto</h3>
             <p>
             <ul>
+                <li>Victor Trindade</li>
+                <li>Jeremias Habacuque</li>
                 <li>Antonio Carlos</li>
                 <li>Gabriel Costa</li>
                 <li>Geisiane Dias</li>

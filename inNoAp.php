@@ -36,7 +36,7 @@ include("protect.php");
         </div>
         <br>
         <div class="mcontainer">
-            <p>Qual o nome do programa?</p>
+            <p>Qual será o aparelho instalado?</p>
             <form id="default" method="POST" action="cadasSolic.php"> 
                 <input type="text" name="nome" value="<?php echo $_SESSION['nome']?>" hidden>
                 <input type="text" name="tipo" value="Instalação de Novo Aparelho" hidden>
