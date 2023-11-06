@@ -40,6 +40,7 @@ include("protect.php");
             <form id="default" method="POST" action="cadasSolic.php"> 
                 <input type="text" name="nome" value="<?php echo $_SESSION['nome']?>" hidden>
                 <input type="text" name="tipo" value="Instalação de Novo Aparelho" hidden>
+                <input type="text" name="situacao" value="Pendente" hidden>
                 <input type="text" name="descricao">
                 <br><br>
                 <a href="sistema.php">Voltar</a>

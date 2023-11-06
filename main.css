@@ -39,6 +39,7 @@
     margin-top: -9px;
     margin-right: -8px;
     position: relative;
+    border-radius: 0 0 15px 15px;
 }
 #logo_img {
     margin-top: 20px;
@@ -109,6 +110,7 @@ li:hover a{
 }
 
 .mcontainer a{
+    text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
     padding-right: 10px;

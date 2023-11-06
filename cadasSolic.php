@@ -13,17 +13,18 @@ if ($conexao->connect_error) {
 }
 
 // Verificar se os campos do formulário foram enviados]
-if (isset($_POST['nome'], $_POST['tipo'], $_POST['descricao'])) {
+if (isset($_POST['nome'], $_POST['tipo'], $_POST['situacao'], $_POST['descricao'])) {
     $nome = $conexao->real_escape_string($_POST['nome']);
     $tipo = $conexao->real_escape_string($_POST['tipo']);
+    $situacao = $conexao->real_escape_string($_POST['situacao']);
     $descricao = $conexao->real_escape_string($_POST['descricao']);
 
     // Consulta SQL preparada para evitar injeção de SQL
-    $sql = "INSERT INTO solicitacoes (usuario, tipo, descrição) VALUES (?, ?, ?)";
+    $sql = "INSERT INTO solicitacoes (usuario, tipo, situacao, descrição) VALUES (?, ?, ?, ?)";
     $stmt = $conexao->prepare($sql);
 
     if ($stmt) {
-        $stmt->bind_param("sss", $nome, $tipo, $descricao);
+        $stmt->bind_param("ssss", $nome, $tipo, $situacao, $descricao);
 
         if ($stmt->execute()) {
             echo "Solicitação encaminhada com sucesso<br><a href='sistema.php'>Voltar</a>";
