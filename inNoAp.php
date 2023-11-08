@@ -36,6 +36,8 @@ include("protect.php");
         </div>
         <br>
         <div class="mcontainer">
+            <a href="sistema.php"><img src="assets/backward.png" id="backward"></a>
+            <br>
             <p>Qual será o aparelho instalado?</p>
             <form id="default" method="POST" action="cadasSolic.php"> 
                 <input type="text" name="nome" value="<?php echo $_SESSION['nome']?>" hidden>
@@ -43,7 +45,6 @@ include("protect.php");
                 <input type="text" name="situacao" value="Pendente" hidden>
                 <input type="text" name="descricao">
                 <br><br>
-                <a href="sistema.php">Voltar</a>
                 <button type="submit">Enviar</button>
             </form>
         </div>

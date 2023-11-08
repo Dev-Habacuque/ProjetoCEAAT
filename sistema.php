@@ -41,7 +41,7 @@ include("protect.php");
 
         <div class="section">
             <section id="activities">
-                <h1 id="solicitacao">Seja bem vindo, <?php echo $_SESSION['nome'];?>.</h1>
+                <h1 id="solicitacao">Seja bem vindo(a), <?php echo $_SESSION['nome'];?>.</h1>
                 <h2 id="solicitacao">Selecione seu tipo de solicitação:</h2>
 
                 <div class="acontainer">

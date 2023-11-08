@@ -7,6 +7,12 @@ body {
     color: #023047
 }
 
+.mensagem {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50%;
+}
+
 .page {
     display: flex;
     flex-direction: column;

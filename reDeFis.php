@@ -36,6 +36,8 @@ include("protect.php");
         </div>
         <br>
         <div class="mcontainer">
+            <a href="sistema.php"><img src="assets/backward.png" id="backward"></a>
+            <br>
             <p>Faça um breve resumo do problema apresentado</p>
             <form id="default" method="POST" action="cadasSolic.php">
                 <input type="text" name="nome" value="<?php echo $_SESSION['nome']?>" hidden>
@@ -43,7 +45,6 @@ include("protect.php");
                 <input type="text" name="situacao" value="Pendente" hidden>
                 <textarea rows="10" cols="50" name="descricao"></textarea>
                 <br><br>
-                <a href="sistema.php">Voltar</a>
                 <button type="submit">Enviar</button>
             </form>
         </div>
