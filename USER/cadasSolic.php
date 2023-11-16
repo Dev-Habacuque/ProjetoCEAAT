@@ -27,7 +27,21 @@ if (isset($_POST['nome'], $_POST['tipo'], $_POST['situacao'], $_POST['descricao'
         $stmt->bind_param("ssss", $nome, $tipo, $situacao, $descricao);
 
         if ($stmt->execute()) {
-            echo "Solicitação encaminhada com sucesso<br><a href='sistema.php'>Voltar</a>";
+            echo "<!DOCTYPE html>
+            <html lang=\"en\">
+            <head>
+                <meta charset=\"UTF-8\">
+                <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+                <title>Document</title>
+                <link rel=\"stylesheet\" href=\"main.css\">
+            </head>
+            <body id=\"snd\">
+                <img id=\"idblock\" src=\"assets/cool.png\">
+                <p id=\"msgsend\">Solicitação encaminhada com sucesso.</p>
+                <div class=\"loginbk\">
+                    <p><a href='sistema.php'>Voltar</a></p>
+                </div>
+            </body>";
         } else {
             echo "Erro na execução da consulta: " . $stmt->error;
         }
