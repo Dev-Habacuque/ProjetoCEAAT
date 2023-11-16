@@ -25,7 +25,7 @@ $result = $mysqli->query($sql);
 
     <div class="container">
         <div class="head">
-            <img src="assets/list_3161836.png" alt="" id="menu-button">
+            <img src=".USER/assets/list_3161836.png" alt="" id="menu-button">
             <div id="menu">
                 <ul>
                     <li>
