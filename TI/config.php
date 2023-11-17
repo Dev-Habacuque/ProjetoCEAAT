@@ -1,4 +1,4 @@
-<?php
+[<?php
 
 $host = 'localhost';
 $bancodedados = 'login';
@@ -7,4 +7,4 @@ $senha = '';
 
 $mysqli = new mysqli($host, $usuario, $senha, $bancodedados);
 
-?>
+?>]

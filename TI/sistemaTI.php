@@ -54,6 +54,7 @@ $result = $mysqli->query($sql);
                                 <th scope="col">Tipo</th>
                                 <th scope="col">Descrição</th>
                                 <th scope="col">Situação</th>
+                                <th scope="col">Alteração</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -65,6 +66,7 @@ $result = $mysqli->query($sql);
                                     echo "<td>".$user_data['tipo']."</td>";
                                     echo "<td>".$user_data['descrição']."</td>";
                                     echo "<td>".$user_data['situacao']."</td>";
+                                    echo "<td>".$user_data['funcao']."</td>";
                                     echo "</tr>";
                                 }
                             ?>
